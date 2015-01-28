@@ -4,7 +4,6 @@ class LibraryTest extends Specification{
     def "someLibraryMethod returns true"() {
         setup:
         Library lib = new Library()
-        println "***************************************"
         when:
         def result = lib.someLibraryMethod()
         then:
